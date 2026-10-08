@@ -1,0 +1,5 @@
+mutation m {
+    deleteManyData(input: [{ id: "1" }, { id: "2" }]) {
+        foo
+    }
+}

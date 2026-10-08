@@ -1,0 +1,5 @@
+mutation m {
+    updateManyData(input: [{ id: "1", foo: "x" }, { id: "2", foo: "y" }]) {
+        foo
+    }
+}
